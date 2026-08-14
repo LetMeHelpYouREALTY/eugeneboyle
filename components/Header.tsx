@@ -55,8 +55,12 @@ export const Header = () => {
             className="hidden sm:block"
             alt="Deploy with Vercel"
           />
-          <Button size="iconSm" className="block sm:hidden">
-            ▲
+          <Button
+            size="iconSm"
+            className="block sm:hidden"
+            aria-label="Deploy with Vercel"
+          >
+            <span aria-hidden="true">▲</span>
           </Button>
         </Link>
       </div>
