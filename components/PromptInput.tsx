@@ -54,9 +54,13 @@ export function PromptInput({
 
   return (
     <div className="w-full mb-8">
-      <div className="bg-zinc-50 rounded-xl p-4">
+      <div className="bg-zinc-50 rounded-xl p-4 focus-within:ring-1 focus-within:ring-ring">
         <div className="flex flex-col gap-3">
+          <label htmlFor="prompt-input" className="sr-only">
+            Image generation prompt
+          </label>
           <Textarea
+            id="prompt-input"
             value={input}
             onChange={(e) => setInput(e.target.value)}
             onKeyDown={handleKeyDown}
@@ -68,6 +72,7 @@ export function PromptInput({
             <div className="flex items-center justify-between space-x-2">
               <button
                 onClick={updateSuggestions}
+                aria-label="Refresh suggestions"
                 className="flex items-center justify-between px-2 rounded-lg py-1 bg-background text-sm hover:opacity-70 group transition-opacity duration-200"
               >
                 <RefreshCw className="w-4 h-4 text-zinc-500 group-hover:opacity-70" />
@@ -97,6 +102,7 @@ export function PromptInput({
             <button
               onClick={handleSubmit}
               disabled={isLoading || !input.trim()}
+              aria-label={isLoading ? "Generating images" : "Send prompt"}
               className="h-8 w-8 rounded-full bg-black flex items-center justify-center disabled:opacity-50"
             >
               {isLoading ? (
