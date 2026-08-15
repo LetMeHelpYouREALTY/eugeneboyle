@@ -120,7 +120,7 @@ export function ReviewSchema({
     "@context": "https://schema.org",
     "@type": "RealEstateAgent",
     "@id": `${absoluteUrl("/")}#organization`,
-    name: "Dr. Gene Boyle — Irvine to Las Vegas Relocation",
+    name: "Dr. Gene Boyle — Corona del Mar & Orange County Realtor",
   };
 
   if (aggregateRating) {

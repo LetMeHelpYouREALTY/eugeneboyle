@@ -37,6 +37,9 @@ export interface NeighborhoodData {
   latitude?: number;
   longitude?: number;
   containedIn?: string;
+  /** ISO state code — CA for California guides, NV for Las Vegas guides */
+  addressRegion?: string;
+  pathPrefix?: string;
 }
 
 export interface CommunityAmenity {
@@ -232,15 +235,15 @@ export function generateRealEstateAgentSchema() {
       worstRating: "1",
     },
     knowsAbout: [
-      "Irvine to Las Vegas relocation",
+      "Corona del Mar real estate",
+      "Orange County real estate",
+      "Newport Beach homes",
+      "Irvine real estate",
       "California to Nevada relocation",
       "Las Vegas real estate",
-      "Henderson homes",
-      "Summerlin properties",
       "Luxury homes",
       "New construction",
       "Investment properties",
-      "55+ communities",
     ],
     slogan: siteConfig.tagline,
   };
@@ -362,7 +365,7 @@ export function generateReviewSchema(reviews: ReviewItem[]) {
     "@context": "https://schema.org",
     "@type": "RealEstateAgent",
     "@id": `${BASE_URL}#organization`,
-    name: `${agentInfo.name} — Irvine to Las Vegas Relocation`,
+    name: `${agentInfo.name} — Corona del Mar & Orange County Realtor`,
     aggregateRating: generateAggregateRatingSchema(
       agentStats.averageRating,
       agentStats.reviewCount
@@ -393,16 +396,25 @@ export function generateReviewSchema(reviews: ReviewItem[]) {
  * Generate Place schema for neighborhoods
  */
 export function generateNeighborhoodSchema(neighborhood: NeighborhoodData) {
+  const region = neighborhood.addressRegion ?? "NV";
+  const pathPrefix = neighborhood.pathPrefix ?? "/neighborhoods";
+  const localityLabel =
+    region === "CA"
+      ? neighborhood.containedIn || "Orange County"
+      : neighborhood.containedIn || "Las Vegas";
   const schema: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": "Place",
-    "@id": `${BASE_URL}/neighborhoods/${neighborhood.slug}#place`,
-    name: `${neighborhood.name}, Las Vegas`,
+    "@id": `${BASE_URL}${pathPrefix}/${neighborhood.slug}#place`,
+    name:
+      region === "CA"
+        ? `${neighborhood.name}, California`
+        : `${neighborhood.name}, Las Vegas`,
     description: neighborhood.description,
     address: {
       "@type": "PostalAddress",
-      addressLocality: neighborhood.containedIn || "Las Vegas",
-      addressRegion: "NV",
+      addressLocality: localityLabel,
+      addressRegion: region,
       addressCountry: "US",
     },
   };
@@ -419,7 +431,7 @@ export function generateNeighborhoodSchema(neighborhood: NeighborhoodData) {
     schema.containedInPlace = {
       "@type": "City",
       name: neighborhood.containedIn,
-      addressRegion: "NV",
+      addressRegion: region,
     };
   }
 

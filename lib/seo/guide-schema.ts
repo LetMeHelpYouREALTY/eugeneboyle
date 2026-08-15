@@ -67,6 +67,8 @@ export function buildNeighborhoodGuideSchema(
     url: c.href ?? (i === arr.length - 1 ? path : "/"),
   }));
 
+  const isCalifornia = path.startsWith("/california");
+
   return combineSchemas(
     generateBreadcrumbSchema(crumbs),
     generateWebPageSchema({
@@ -82,6 +84,8 @@ export function buildNeighborhoodGuideSchema(
       latitude: guide.geo?.latitude,
       longitude: guide.geo?.longitude,
       containedIn: guide.geo?.containedIn,
+      addressRegion: isCalifornia ? "CA" : "NV",
+      pathPrefix: isCalifornia ? "/california" : "/neighborhoods",
     }),
     generateFAQSchema(guide.faqs)
   );
