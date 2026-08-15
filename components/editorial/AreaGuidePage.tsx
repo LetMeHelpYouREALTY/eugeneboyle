@@ -71,7 +71,7 @@ export default function AreaGuidePage({ guide, schema }: AreaGuidePageProps) {
           <EditorialSection
             index="03"
             label="Highlights"
-            title="What relocators notice first"
+            title={guide.highlightsTitle ?? "What buyers notice first"}
           >
             <div className="grid md:grid-cols-2 gap-x-12 gap-y-10 border-t border-[var(--line-soft)] pt-12">
               {guide.highlights.map((h) => (

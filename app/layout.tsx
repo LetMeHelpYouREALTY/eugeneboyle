@@ -39,31 +39,32 @@ function resolveHost(): string {
   try {
     return new URL(siteConfig.url).hostname;
   } catch {
-    return "geneboyle.com";
+    return "eugeneboyle.com";
   }
 }
 
 export function generateMetadata(): Metadata {
   const domain = resolveHost();
   const config = getDomainConfig(domain);
+  const cleanHost = domain.replace(/^www\./, "").toLowerCase();
   const isGeneBoyle =
     config.domain === "geneboyle.com" ||
-    domain
-      .replace(/^www\./, "")
-      .toLowerCase()
-      .includes("geneboyle.com");
+    config.domain === "eugeneboyle.com" ||
+    cleanHost.includes("geneboyle.com") ||
+    cleanHost.includes("eugeneboyle.com");
+  const primaryUrl = siteConfig.url;
   const title = isGeneBoyle
-    ? `${config.neighborhood} | Dr. Gene Boyle | BHHS Nevada partner`
+    ? `${config.neighborhood} | Dr. Gene Boyle | CA DRE #02282581`
     : `${config.neighborhood} | Dr. Jan Duffy, REALTOR® | BHHS Nevada`;
   const siteName = isGeneBoyle
-    ? "Dr. Gene Boyle | geneboyle.com"
+    ? "Dr. Gene Boyle | Corona del Mar & Orange County"
     : "Dr. Jan Duffy | Berkshire Hathaway HomeServices Nevada Properties";
   const ogImage = {
     url: "/og-image.jpg",
     width: 1200,
     height: 630,
     alt: isGeneBoyle
-      ? "Irvine to Las Vegas relocation with Dr. Gene Boyle"
+      ? "Corona del Mar and Orange County real estate with Dr. Gene Boyle"
       : "Las Vegas real estate with Dr. Jan Duffy",
   };
   const googleVerification =
@@ -71,7 +72,7 @@ export function generateMetadata(): Metadata {
     process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION?.trim();
 
   return {
-    metadataBase: new URL("https://www.geneboyle.com"),
+    metadataBase: new URL(primaryUrl),
     title,
     description: config.description,
     keywords: config.keywords,
@@ -95,7 +96,7 @@ export function generateMetadata(): Metadata {
       title: config.heroHeadline,
       description: config.description,
       type: "website",
-      url: "https://www.geneboyle.com",
+      url: primaryUrl,
       siteName,
       locale: "en_US",
       images: [ogImage],

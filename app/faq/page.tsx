@@ -16,17 +16,18 @@ import EditorialVisualHero from "@/components/editorial/EditorialVisualHero";
 import EditorialMediaBand from "@/components/editorial/EditorialMediaBand";
 import { getMarketingImage, getSectionImage } from "@/lib/guides/media";
 import { answerFirst, valleyAugust6 } from "@/lib/market/august-2026";
+import { cdmMarketNotes } from "@/lib/market/corona-del-mar";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Irvine-to-Las Vegas Relocation Questions Answered | Dr. Gene Boyle",
-  description: "FAQ for Irvine to Las Vegas relocation: prices, sell-first vs buy-first, timelines, and neighborhood comparison with Dr. Gene Boyle and Dr. Jan Duffy.",
+  title: "Corona del Mar & Orange County FAQ | Dr. Gene Boyle",
+  description:
+    "FAQ for Corona del Mar and Orange County real estate, plus Las Vegas relocation when needed. Dr. Gene Boyle (CA DRE #02282581). Call (702) 222-1964.",
   path: "/faq",
   keywords: [
-    "Irvine to Las Vegas FAQ",
-    "Las Vegas real estate questions",
-    "buying a home Las Vegas",
-    "relocation FAQ",
+    "Corona del Mar realtor FAQ",
+    "Orange County real estate questions",
     "Dr Gene Boyle FAQ",
+    "Newport Beach homes FAQ",
   ],
 });
 
@@ -41,19 +42,36 @@ const faqCategories = [
     faqs: [
       {
         q: "Who is Dr. Gene Boyle?",
-        a: `${agentInfo.name} (${agentInfo.licenseLabel}) helps clients plan moves from Irvine and Orange County to Las Vegas. Las Vegas partner ${agentInfo.partnerAgent.name} (${agentInfo.partnerAgent.license}) covers Valley tours and closing with Berkshire Hathaway HomeServices Nevada Properties.`,
+        a: `${agentInfo.name} (${agentInfo.licenseLabel}) is a Corona del Mar and Orange County realtor. Office: ${officeInfo.address.full}. Las Vegas partner ${agentInfo.partnerAgent.name} (${agentInfo.partnerAgent.license}) covers Valley tours when you also move to Nevada.`,
       },
       {
-        q: "Why Berkshire Hathaway HomeServices?",
-        a: "BHHS Nevada Properties provides local market coverage and a national referral network. We use the brand’s platforms — we do not rebuild native RealScout ↔ Follow Up Boss sync.",
+        q: "Is this the same site as drgeneboyle.com?",
+        a: "No. eugeneboyle.com is the California realtor / hyperlocal real estate site. drgeneboyle.com is the separate PhD / research site.",
       },
       {
         q: "What areas do you serve?",
-        a: "California planning from Corona del Mar and Orange County (including Irvine); Las Vegas Valley buying and selling including Summerlin, Henderson, Green Valley, North Las Vegas, Southern Highlands, Skye Canyon, Centennial Hills, and The Ridges.",
+        a: cdmMarketNotes.answerFirst.areas,
       },
       {
         q: "What phone number should I use?",
         a: `Client CTA is ${agentInfo.phoneFormatted}. Email ${agentInfo.email}.`,
+      },
+    ],
+  },
+  {
+    title: "Corona del Mar & Orange County",
+    faqs: [
+      {
+        q: "What is the current Corona del Mar median?",
+        a: cdmMarketNotes.answerFirst.home,
+      },
+      {
+        q: "How should buyers compare CdM to Newport Beach city averages?",
+        a: cdmMarketNotes.answerFirst.buy,
+      },
+      {
+        q: "How do you price a CdM sale?",
+        a: cdmMarketNotes.answerFirst.sell,
       },
     ],
   },

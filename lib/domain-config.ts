@@ -22,25 +22,26 @@ const REALSCOUT_AGENT_ID = "QWdlbnQtMjI1MDUw";
 
 const GENE_BOYLE_RELOCATION: DomainConfig = {
   domain: "eugeneboyle.com",
-  neighborhood: "Orange County to Las Vegas",
-  tagline: "Orange County to Las Vegas Relocation — Dr. Gene Boyle",
+  neighborhood: "Corona del Mar",
+  tagline: "Corona del Mar & Orange County Realtor — Dr. Gene Boyle",
   description:
-    "Dr. Gene Boyle (California DRE #02282581) helps clients move from Orange County and Irvine, California to Las Vegas. Planning office: 3301 E. Coast Hwy, Corona del Mar, CA 92625. Las Vegas support from Dr. Jan Duffy, BHHS Nevada Properties. Separate from the research site at drgeneboyle.com.",
-  heroHeadline: "Moving from Orange County to Las Vegas?",
+    "Dr. Gene Boyle (California DRE #02282581) — hyperlocal Corona del Mar realtor and Orange County coverage (Newport Beach, Irvine, Laguna Beach, Laguna Niguel, Mission Viejo, Monarch Beach, Tustin). Office: 3301 E. Coast Hwy, Corona del Mar, CA 92625. Las Vegas partnership with Dr. Jan Duffy, BHHS Nevada Properties, when needed. Separate from drgeneboyle.com.",
+  heroHeadline: "Corona del Mar & Orange County Real Estate",
   heroSubheadline:
-    "Dr. Gene Boyle plans your California-to-Nevada move from Corona del Mar and coordinates Las Vegas homes with Dr. Jan Duffy.",
+    "Buy and sell in Corona del Mar and across Orange County with Dr. Gene Boyle — California office on East Coast Highway.",
   keywords: [
-    "Orange County to Las Vegas relocation",
-    "Irvine to Las Vegas relocation",
-    "Dr Gene Boyle realtor",
-    "Corona del Mar real estate",
-    "California to Las Vegas move",
+    "Corona del Mar realtor",
+    "Corona del Mar homes for sale",
+    "Orange County real estate",
+    "Newport Beach realtor",
+    "Dr Gene Boyle",
+    "Irvine real estate",
   ],
-  pageType: "lifestyle",
+  pageType: "community",
   realscoutAgentId: REALSCOUT_AGENT_ID,
-  ctaBadge: "OC → Las Vegas",
-  ctaHeadline: "Start Your Las Vegas Move",
-  ctaSubheadline: "Call or text 702-222-1964 — Gene plans the move, Jan covers Las Vegas ground.",
+  ctaBadge: "CdM · Orange County",
+  ctaHeadline: "Talk Corona del Mar Real Estate",
+  ctaSubheadline: "Call or text 702-222-1964 — California-side buying and selling from the CdM office.",
 };
 
 export const DOMAIN_CONFIGS: Record<string, DomainConfig> = {
@@ -49,12 +50,12 @@ export const DOMAIN_CONFIGS: Record<string, DomainConfig> = {
     ...GENE_BOYLE_RELOCATION,
     domain: "geneboyle.com",
     description:
-      "Dr. Gene Boyle (California DRE #02282581) helps clients move from Orange County and Irvine, California to Las Vegas. Planning office: 3301 E. Coast Hwy, Corona del Mar, CA 92625. Las Vegas support from Dr. Jan Duffy, BHHS Nevada Properties.",
+      "Dr. Gene Boyle (California DRE #02282581) — Corona del Mar and Orange County realtor. Office: 3301 E. Coast Hwy, Corona del Mar, CA 92625. Las Vegas support from Dr. Jan Duffy, BHHS Nevada Properties, when relocating to Nevada.",
     keywords: [
-      "Orange County to Las Vegas relocation",
+      "Corona del Mar realtor",
+      "Orange County real estate",
       "Irvine to Las Vegas relocation",
       "Dr Gene Boyle",
-      "California to Las Vegas move",
       "Gene Boyle realtor",
     ],
   },
@@ -126,8 +127,8 @@ export const DOMAIN_CONFIGS: Record<string, DomainConfig> = {
 export const DEFAULT_CONFIG: DomainConfig = {
   ...GENE_BOYLE_RELOCATION,
   keywords: [
-    "Orange County to Las Vegas relocation",
-    "Irvine to Las Vegas relocation",
+    "Corona del Mar realtor",
+    "Orange County real estate",
     "Dr Gene Boyle realtor",
     "Eugene Boyle Corona del Mar",
     "eugeneboyle.com",

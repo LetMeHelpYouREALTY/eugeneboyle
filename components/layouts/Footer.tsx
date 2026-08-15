@@ -12,11 +12,12 @@ export default function Footer() {
             <p className="font-display text-2xl text-ink tracking-tight">
               {siteConfig.fullName}
             </p>
-            <p className="kicker mt-2">Continuous relocation planning</p>
+            <p className="kicker mt-2">Corona del Mar · Orange County</p>
             <p className="mt-5 max-w-sm text-sm leading-relaxed">
-              Irvine to Las Vegas with Las Vegas partner{" "}
+              Hyperlocal California realtor services from{" "}
+              {officeInfo.address.city}. Las Vegas partnership with{" "}
               {agentInfo.partnerAgent.name}, Berkshire Hathaway HomeServices
-              Nevada Properties.
+              Nevada Properties, when you also move to Nevada.
             </p>
           </div>
 
@@ -26,18 +27,18 @@ export default function Footer() {
             </p>
             <ul className="space-y-2.5 text-ink-soft">
               <li>
-                <Link href="/relocation" className="hover:text-ink">
-                  Relocation
+                <Link href="/california/corona-del-mar" className="hover:text-ink">
+                  Corona del Mar
+                </Link>
+              </li>
+              <li>
+                <Link href="/california" className="hover:text-ink">
+                  Orange County
                 </Link>
               </li>
               <li>
                 <Link href="/listings" className="hover:text-ink">
                   Homes
-                </Link>
-              </li>
-              <li>
-                <Link href="/neighborhoods" className="hover:text-ink">
-                  Areas
                 </Link>
               </li>
               <li>
@@ -51,8 +52,13 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/how-we-work" className="hover:text-ink">
-                  How we work
+                <Link href="/relocation" className="hover:text-ink">
+                  Relocation
+                </Link>
+              </li>
+              <li>
+                <Link href="/neighborhoods" className="hover:text-ink">
+                  Las Vegas areas
                 </Link>
               </li>
               <li>

@@ -9,6 +9,7 @@ export type AreaGuide = {
   stats: { value: string; label: string }[];
   overviewTitle: string;
   overview: string[];
+  highlightsTitle?: string;
   highlights: { title: string; body: string }[];
   detailsTitle?: string;
   details?: { title: string; items: string[] }[];

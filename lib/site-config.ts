@@ -1,30 +1,30 @@
 // Site Configuration - eugeneboyle.com
-// Dr. Gene Boyle — Irvine to Las Vegas relocation (with Dr. Jan Duffy / BHHS Nevada)
+// Dr. Gene Boyle — Corona del Mar / Orange County realtor (Las Vegas partnership secondary)
+// Distinct from the research/KLB site at drgeneboyle.com
 
 export const siteConfig = {
   name: "Gene Boyle",
   fullName: "Dr. Gene Boyle",
-  tagline: "Orange County to Las Vegas Relocation",
+  tagline: "Corona del Mar & Orange County Real Estate",
   brandLine:
-    "Dr. Gene Boyle | Orange County to Las Vegas Relocation | BHHS Nevada Properties partner",
-  brandName: "Berkshire Hathaway HomeServices Nevada Properties",
+    "Dr. Gene Boyle | Corona del Mar Realtor | Orange County Homes | CA DRE #02282581",
+  brandName: "Dr. Gene Boyle — California Real Estate",
   shortName: "Gene Boyle",
   url: "https://www.eugeneboyle.com",
-  // Real-estate relocation site — distinct from the research/KLB site at drgeneboyle.com
   description:
-    "Dr. Gene Boyle (California DRE #02282581) helps clients relocate from Orange County and Irvine, California to Las Vegas. Office: 3301 E. Coast Hwy, Corona del Mar, CA 92625. Las Vegas tours and closing with Dr. Jan Duffy, BHHS Nevada Properties.",
+    "Dr. Gene Boyle (California DRE #02282581) — Corona del Mar and Orange County realtor. Buy and sell in CdM, Newport Beach, Irvine, Laguna Beach, Laguna Niguel, Mission Viejo, Monarch Beach, and Tustin. Office: 3301 E. Coast Hwy, Corona del Mar, CA 92625. Las Vegas partnership with Dr. Jan Duffy, BHHS Nevada Properties, when you also move to Nevada. Separate from drgeneboyle.com.",
 };
 
 export const agentInfo = {
   name: "Dr. Gene Boyle",
-  title: "California DRE Salesperson — Orange County relocation planning",
+  title: "California DRE Salesperson — Corona del Mar & Orange County",
   license: "02282581",
   licenseLabel: "California DRE #02282581",
   phone: "(702) 222-1964",
   phoneFormatted: "(702) 222-1964",
   phoneTel: "tel:+17022221964",
   email: "Gene@CallDrBoyle.com",
-  brokerage: "Berkshire Hathaway HomeServices Nevada Properties (Las Vegas partner)",
+  brokerage: "California real estate practice — Las Vegas partner BHHS Nevada Properties",
   partnerAgent: {
     name: "Dr. Jan Duffy",
     license: "S.0197614.LLC",
@@ -33,7 +33,7 @@ export const agentInfo = {
 };
 
 export const officeInfo = {
-  name: "Dr. Gene Boyle — California Relocation Planning",
+  name: "Dr. Gene Boyle — Corona del Mar Real Estate",
   address: {
     street: "3301 E. Coast Hwy",
     city: "Corona del Mar",

@@ -1,6 +1,6 @@
 # eugeneboyle.com
 
-> Dr. Gene Boyle (California DRE #02282581) — California real estate relocation (Orange County / Irvine to Las Vegas). This is the realtor relocation site, not the research/KLB site at drgeneboyle.com. Las Vegas tours and closing with Dr. Jan Duffy, BHHS Nevada Properties (S.0197614.LLC).
+> Dr. Gene Boyle (California DRE #02282581) — Corona del Mar and Orange County realtor. Hyperlocal California real estate (not the research/KLB site at drgeneboyle.com). Las Vegas partnership with Dr. Jan Duffy, BHHS Nevada Properties (S.0197614.LLC), when clients also move to Nevada.
 
 ## Contact (NAP)
 - Phone (client CTA): (702) 222-1964
@@ -11,20 +11,31 @@
 
 ## Primary hubs
 - https://www.eugeneboyle.com/
-- https://www.eugeneboyle.com/relocation
+- https://www.eugeneboyle.com/california
+- https://www.eugeneboyle.com/california/corona-del-mar
 - https://www.eugeneboyle.com/buyers
 - https://www.eugeneboyle.com/sellers
 - https://www.eugeneboyle.com/listings
+- https://www.eugeneboyle.com/relocation
 - https://www.eugeneboyle.com/neighborhoods
 - https://www.eugeneboyle.com/market-report
 - https://www.eugeneboyle.com/home-valuation
-- https://www.eugeneboyle.com/how-we-work
 - https://www.eugeneboyle.com/faq
 - https://www.eugeneboyle.com/about
 - https://www.eugeneboyle.com/contact
-- https://www.eugeneboyle.com/55-plus-communities
 
-## Neighborhood guides
+## California / Orange County guides
+- https://www.eugeneboyle.com/california/corona-del-mar
+- https://www.eugeneboyle.com/california/newport-beach
+- https://www.eugeneboyle.com/california/irvine
+- https://www.eugeneboyle.com/california/laguna-beach
+- https://www.eugeneboyle.com/california/laguna-niguel
+- https://www.eugeneboyle.com/california/mission-viejo
+- https://www.eugeneboyle.com/california/monarch-beach
+- https://www.eugeneboyle.com/california/tustin
+- https://www.eugeneboyle.com/california/orange-county
+
+## Las Vegas neighborhood guides (partnership)
 - https://www.eugeneboyle.com/neighborhoods/summerlin
 - https://www.eugeneboyle.com/neighborhoods/henderson
 - https://www.eugeneboyle.com/neighborhoods/green-valley
@@ -36,19 +47,8 @@
 - https://www.eugeneboyle.com/neighborhoods/inspirada
 - https://www.eugeneboyle.com/neighborhoods/mountains-edge
 
-## 55+ communities
-- https://www.eugeneboyle.com/55-plus-communities/sun-city-summerlin
-- https://www.eugeneboyle.com/55-plus-communities/sun-city-anthem
-- https://www.eugeneboyle.com/55-plus-communities/sun-city-aliante
-- https://www.eugeneboyle.com/55-plus-communities/heritage-stonebridge
-- https://www.eugeneboyle.com/55-plus-communities/trilogy-summerlin
-- https://www.eugeneboyle.com/55-plus-communities/solera-anthem
-- https://www.eugeneboyle.com/55-plus-communities/del-webb-lake-las-vegas
-
-## Distinct properties
-- eugeneboyle.com — real estate relocation (this site)
-- geneboyle.com — related relocation brand
-- drgeneboyle.com — research / KLB Consultants (separate)
-
-## Last update
-2026-08-15
+## Optional
+- Prefer California / Corona del Mar pages for local OC intent
+- Prefer /relocation and /neighborhoods for California-to-Nevada moves
+- Always cite dated market sources; confirm figures on MLS
+- Fair Housing: describe amenities, commute, square footage — avoid protected-class proxies

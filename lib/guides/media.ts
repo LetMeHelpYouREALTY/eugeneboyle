@@ -4,6 +4,42 @@ export type GuideImage = {
 };
 
 const neighborhoodImages: Record<string, GuideImage> = {
+  "corona-del-mar": {
+    src: "/images/marketing/luxury.jpg",
+    alt: "Corona del Mar coastal homes and Pacific Ocean cliffs near Newport Beach",
+  },
+  "newport-beach": {
+    src: "/images/marketing/listings.jpg",
+    alt: "Newport Beach coastal residential area and harbor-adjacent neighborhoods",
+  },
+  irvine: {
+    src: "/images/marketing/new-construction.jpg",
+    alt: "Irvine Orange County master-planned residential community homes",
+  },
+  "laguna-beach": {
+    src: "/images/hero/home-alt.jpg",
+    alt: "Laguna Beach hillside and cove coastal residential setting",
+  },
+  "laguna-niguel": {
+    src: "/images/marketing/buyers.jpg",
+    alt: "Laguna Niguel south Orange County residential hillside homes",
+  },
+  "mission-viejo": {
+    src: "/images/marketing/services.jpg",
+    alt: "Mission Viejo Orange County planned-community residential streets",
+  },
+  "monarch-beach": {
+    src: "/images/marketing/luxury.jpg",
+    alt: "Monarch Beach Dana Point coastal resort-adjacent residential area",
+  },
+  tustin: {
+    src: "/images/marketing/about.jpg",
+    alt: "Tustin central Orange County residential neighborhood homes",
+  },
+  "orange-county": {
+    src: "/images/marketing/market.jpg",
+    alt: "Orange County California coastal and inland residential markets",
+  },
   summerlin: {
     src: "/images/neighborhoods/summerlin.jpg",
     alt: "Summerlin Las Vegas homes with Red Rock Canyon mountains at golden hour",
@@ -184,6 +220,10 @@ const marketingImages: Record<string, GuideImage> = {
     src: "/images/neighborhoods/summerlin.jpg",
     alt: "Las Vegas Valley neighborhood with Red Rock backdrop",
   },
+  california: {
+    src: "/images/marketing/luxury.jpg",
+    alt: "Corona del Mar and Orange County coastal real estate setting",
+  },
   "55-plus-communities": {
     src: "/images/marketing/55-plus.jpg",
     alt: "Active-adult community homes and recreation amenities",
@@ -231,8 +271,8 @@ const heroImages: Record<string, GuideImage> = {
 export function getAreaImage(slug: string): GuideImage {
   return (
     neighborhoodImages[slug] ?? {
-      src: "/images/neighborhoods/summerlin.jpg",
-      alt: "Las Vegas Valley residential community",
+      src: "/images/marketing/luxury.jpg",
+      alt: "Orange County and Corona del Mar residential community",
     }
   );
 }

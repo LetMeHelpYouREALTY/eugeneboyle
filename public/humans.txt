@@ -18,7 +18,8 @@ Last update: 2026-08-15
 Language: English
 Doctype: HTML5
 Standards: W3C, WCAG 2.1, Fair Housing Act
-Note: Real-estate relocation site — distinct from research/KLB brand at drgeneboyle.com
+Note: California realtor / hyperlocal OC site — distinct from research/KLB brand at drgeneboyle.com
+Focus: Corona del Mar + Orange County; Las Vegas partnership secondary
 
 /* INTEGRATIONS */
 CRM: Follow Up Boss (native RealScout sync)

@@ -16,7 +16,7 @@ import {
   type FAQItem,
 } from "@/lib/schema";
 
-const DATE_MODIFIED = "2026-08-10";
+const DATE_MODIFIED = "2026-08-15";
 
 export function buildMarketingGuideSchema(
   guide: MarketingGuide,

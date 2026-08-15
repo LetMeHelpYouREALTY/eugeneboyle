@@ -84,10 +84,11 @@ export function generateRealEstateAgentSchema() {
     "@context": "https://schema.org",
     "@type": "RealEstateAgent",
     "@id": `${BASE_URL}#organization`,
-    name: `${agentInfo.name} — Irvine to Las Vegas Relocation`,
+    name: `${agentInfo.name} — Corona del Mar & Orange County Realtor`,
     alternateName: [
       siteConfig.fullName,
-      "geneboyle.com",
+      "eugeneboyle.com",
+      "Corona del Mar realtor",
       "BHHS Nevada Properties partner",
     ],
     url: BASE_URL,
@@ -157,9 +158,29 @@ export function generateRealEstateAgentSchema() {
     ],
     areaServed: [
       {
+        "@type": "Place",
+        name: "Corona del Mar",
+        sameAs: "https://en.wikipedia.org/wiki/Corona_del_Mar,_Newport_Beach",
+      },
+      {
+        "@type": "City",
+        name: "Newport Beach",
+        sameAs: "https://en.wikipedia.org/wiki/Newport_Beach,_California",
+      },
+      {
         "@type": "City",
         name: "Irvine",
         sameAs: "https://en.wikipedia.org/wiki/Irvine,_California",
+      },
+      { "@type": "City", name: "Laguna Beach" },
+      { "@type": "City", name: "Laguna Niguel" },
+      { "@type": "City", name: "Mission Viejo" },
+      { "@type": "Place", name: "Monarch Beach" },
+      { "@type": "City", name: "Tustin" },
+      {
+        "@type": "AdministrativeArea",
+        name: "Orange County",
+        sameAs: "https://en.wikipedia.org/wiki/Orange_County,_California",
       },
       {
         "@type": "City",
@@ -172,8 +193,6 @@ export function generateRealEstateAgentSchema() {
         sameAs: "https://en.wikipedia.org/wiki/Henderson,_Nevada",
       },
       { "@type": "Place", name: "Summerlin" },
-      { "@type": "City", name: "North Las Vegas" },
-      { "@type": "Place", name: "Green Valley" },
     ],
     openingHoursSpecification: [
       {

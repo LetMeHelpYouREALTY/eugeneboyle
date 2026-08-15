@@ -5,10 +5,11 @@ import Link from "next/link";
 import { Menu, X } from "lucide-react";
 
 const links = [
-  { href: "/relocation", label: "Relocation" },
+  { href: "/california/corona-del-mar", label: "Corona del Mar" },
+  { href: "/california", label: "Orange County" },
   { href: "/listings", label: "Homes" },
-  { href: "/neighborhoods", label: "Areas" },
-  { href: "/how-we-work", label: "How we work" },
+  { href: "/buyers", label: "Buyers" },
+  { href: "/sellers", label: "Sellers" },
   { href: "/faq", label: "FAQ" },
   { href: "/about", label: "About" },
 ];
@@ -38,7 +39,7 @@ export default function Navbar() {
             Dr. Gene Boyle
           </span>
           <span className="kicker mt-1 block text-[0.58rem] md:text-[0.62rem]">
-            Irvine → Las Vegas
+            Corona del Mar · Orange County
           </span>
         </Link>
 
