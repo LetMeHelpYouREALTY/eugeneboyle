@@ -49,7 +49,7 @@ const faqCategories = [
       },
       {
         q: "What areas do you serve?",
-        a: "California planning from Irvine; Las Vegas Valley buying and selling including Summerlin, Henderson, Green Valley, North Las Vegas, Southern Highlands, Skye Canyon, Centennial Hills, and The Ridges.",
+        a: "California planning from Corona del Mar and Orange County (including Irvine); Las Vegas Valley buying and selling including Summerlin, Henderson, Green Valley, North Las Vegas, Southern Highlands, Skye Canyon, Centennial Hills, and The Ridges.",
       },
       {
         q: "What phone number should I use?",

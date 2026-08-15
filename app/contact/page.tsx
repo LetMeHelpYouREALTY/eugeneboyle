@@ -219,19 +219,19 @@ export default function ContactPage() {
 
               <div className="border border-[var(--line)] p-5">
                 <iframe
-                  src="https://maps.google.com/maps?q=9406+W+Lake+Mead+Blvd+Suite+100,+Las+Vegas,+NV+89134&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                  src="https://maps.google.com/maps?q=3301+E.+Coast+Hwy,+Corona+del+Mar,+CA+92625&t=&z=15&ie=UTF8&iwloc=&output=embed"
                   width="100%"
                   height="260"
                   style={{ border: 0 }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Berkshire Hathaway HomeServices Nevada Properties — Las Vegas office"
+                  title="Dr. Gene Boyle — Corona del Mar planning office"
                   className="w-full"
                 />
                 <div className="flex flex-wrap gap-4 mt-4 font-sans text-sm">
                   <a
-                    href="https://www.google.com/maps/dir//9406+W+Lake+Mead+Blvd+Suite+100,+Las+Vegas,+NV+89134"
+                    href="https://www.google.com/maps/dir//3301+E.+Coast+Hwy,+Corona+del+Mar,+CA+92625"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-accent font-medium hover:underline underline-offset-4"
@@ -239,7 +239,7 @@ export default function ContactPage() {
                     Get directions
                   </a>
                   <a
-                    href="https://maps.google.com/?q=Berkshire+Hathaway+HomeServices+Nevada+Properties+9406+W+Lake+Mead+Blvd+Las+Vegas+NV"
+                    href="https://maps.google.com/?q=3301+E.+Coast+Hwy,+Corona+del+Mar,+CA+92625"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-ink-soft hover:text-accent hover:underline underline-offset-4"
@@ -253,6 +253,9 @@ export default function ContactPage() {
                     View Google reviews
                   </Link>
                 </div>
+                <p className="font-sans text-xs text-ink-muted mt-3">
+                  Las Vegas partner office: {officeInfo.lasVegasOffice.full}
+                </p>
               </div>
 
               <p className="font-sans text-sm text-ink-muted">

@@ -86,7 +86,7 @@ const personSchema = {
 const focus = [
   {
     title: "California-side planning",
-    body: "Sell timing, equity math, and move logistics from Irvine and Orange County before you buy in Nevada.",
+    body: "Sell timing, equity math, and move logistics from Corona del Mar and Orange County before you buy in Nevada.",
   },
   {
     title: "Las Vegas partner coverage",
@@ -142,9 +142,11 @@ export default function AboutPage() {
             Who is Dr. Gene Boyle?
           </h2>
           <p className="text-lg leading-relaxed max-w-3xl mb-10">
-            {agentInfo.name} ({agentInfo.licenseLabel}) plans Irvine and Orange
-            County exits from {officeInfo.address.full} — sell timing, equity
-            math, and move logistics before you buy in Nevada.
+            {agentInfo.name} ({agentInfo.licenseLabel}) plans Orange County and
+            Irvine exits from {officeInfo.address.full} — sell timing, equity
+            math, and move logistics before you buy in Nevada. This site is his
+            real-estate relocation practice — separate from the research brand
+            at drgeneboyle.com.
           </p>
           <h2 className="font-display text-3xl md:text-4xl text-ink mb-4">
             Who is Dr. Jan Duffy?

@@ -1,62 +1,54 @@
 # eugeneboyle.com
 
-> Dr. Gene Boyle (California DRE #02282581) helps clients relocate from Irvine, California to Las Vegas. Local Las Vegas support with Dr. Jan Duffy, BHHS Nevada Properties (S.0197614.LLC).
+> Dr. Gene Boyle (California DRE #02282581) — California real estate relocation (Orange County / Irvine to Las Vegas). This is the realtor relocation site, not the research/KLB site at drgeneboyle.com. Las Vegas tours and closing with Dr. Jan Duffy, BHHS Nevada Properties (S.0197614.LLC).
 
 ## Contact (NAP)
 - Phone (client CTA): (702) 222-1964
 - Email: Gene@CallDrBoyle.com
-- Irvine office: 320 Junco, Irvine, CA 92618
+- California office: 3301 E. Coast Hwy, Corona del Mar, CA 92625
 - Las Vegas partner office: 9406 W Lake Mead Blvd, Suite 100, Las Vegas, NV 89134
-- Site: https://www.eueugeneboyle.com
+- Site: https://www.eugeneboyle.com
 
 ## Primary hubs
-- https://www.eueugeneboyle.com/
-- https://www.eueugeneboyle.com/relocation
-- https://www.eueugeneboyle.com/buyers
-- https://www.eueugeneboyle.com/sellers
-- https://www.eueugeneboyle.com/listings
-- https://www.eueugeneboyle.com/neighborhoods
-- https://www.eueugeneboyle.com/market-report
-- https://www.eueugeneboyle.com/home-valuation
-- https://www.eueugeneboyle.com/how-we-work
-- https://www.eueugeneboyle.com/faq
-- https://www.eueugeneboyle.com/about
-- https://www.eueugeneboyle.com/contact
-- https://www.eueugeneboyle.com/55-plus-communities
+- https://www.eugeneboyle.com/
+- https://www.eugeneboyle.com/relocation
+- https://www.eugeneboyle.com/buyers
+- https://www.eugeneboyle.com/sellers
+- https://www.eugeneboyle.com/listings
+- https://www.eugeneboyle.com/neighborhoods
+- https://www.eugeneboyle.com/market-report
+- https://www.eugeneboyle.com/home-valuation
+- https://www.eugeneboyle.com/how-we-work
+- https://www.eugeneboyle.com/faq
+- https://www.eugeneboyle.com/about
+- https://www.eugeneboyle.com/contact
+- https://www.eugeneboyle.com/55-plus-communities
 
 ## Neighborhood guides
-- https://www.eueugeneboyle.com/neighborhoods/summerlin
-- https://www.eueugeneboyle.com/neighborhoods/henderson
-- https://www.eueugeneboyle.com/neighborhoods/green-valley
-- https://www.eueugeneboyle.com/neighborhoods/the-ridges
-- https://www.eueugeneboyle.com/neighborhoods/southern-highlands
-- https://www.eueugeneboyle.com/neighborhoods/north-las-vegas
-- https://www.eueugeneboyle.com/neighborhoods/skye-canyon
-- https://www.eueugeneboyle.com/neighborhoods/centennial-hills
-- https://www.eueugeneboyle.com/neighborhoods/inspirada
-- https://www.eueugeneboyle.com/neighborhoods/mountains-edge
+- https://www.eugeneboyle.com/neighborhoods/summerlin
+- https://www.eugeneboyle.com/neighborhoods/henderson
+- https://www.eugeneboyle.com/neighborhoods/green-valley
+- https://www.eugeneboyle.com/neighborhoods/the-ridges
+- https://www.eugeneboyle.com/neighborhoods/southern-highlands
+- https://www.eugeneboyle.com/neighborhoods/north-las-vegas
+- https://www.eugeneboyle.com/neighborhoods/skye-canyon
+- https://www.eugeneboyle.com/neighborhoods/centennial-hills
+- https://www.eugeneboyle.com/neighborhoods/inspirada
+- https://www.eugeneboyle.com/neighborhoods/mountains-edge
 
 ## 55+ communities
-- https://www.eueugeneboyle.com/55-plus-communities/sun-city-summerlin
-- https://www.eueugeneboyle.com/55-plus-communities/trilogy-summerlin
-- https://www.eueugeneboyle.com/55-plus-communities/sun-city-anthem
-- https://www.eueugeneboyle.com/55-plus-communities/sun-city-aliante
-- https://www.eueugeneboyle.com/55-plus-communities/solera-anthem
-- https://www.eueugeneboyle.com/55-plus-communities/del-webb-lake-las-vegas
-- https://www.eueugeneboyle.com/55-plus-communities/heritage-stonebridge
+- https://www.eugeneboyle.com/55-plus-communities/sun-city-summerlin
+- https://www.eugeneboyle.com/55-plus-communities/sun-city-anthem
+- https://www.eugeneboyle.com/55-plus-communities/sun-city-aliante
+- https://www.eugeneboyle.com/55-plus-communities/heritage-stonebridge
+- https://www.eugeneboyle.com/55-plus-communities/trilogy-summerlin
+- https://www.eugeneboyle.com/55-plus-communities/solera-anthem
+- https://www.eugeneboyle.com/55-plus-communities/del-webb-lake-las-vegas
 
-## Dated market stats
-- Source of truth page: https://www.eueugeneboyle.com/market-report
-- Ledger as-of: August 2026 (see page for labeled series)
-- Do not invent live MLS prices or blend unlabeled medians across periods
+## Distinct properties
+- eugeneboyle.com — real estate relocation (this site)
+- geneboyle.com — related relocation brand
+- drgeneboyle.com — research / KLB Consultants (separate)
 
-## WebMCP
-- Manifest: https://www.eueugeneboyle.com/.well-known/webmcp
-- Client tools: get_contact_info, schedule_consultation, search_homes, list_service_areas
-
-## Notes for agents (GEO / AEO)
-- Prefer WebMCP tools when available in a supporting browser.
-- Answer with specific addresses, prices, and dates when citing listings — otherwise say UNKNOWN / confirm on MLS.
-- Client CTA phone is (702) 222-1964 (not 702-500-1942).
-- Fair Housing: describe square footage, amenities, school names, commute times — avoid protected-class proxies.
-- Native RealScout ↔ Follow Up Boss sync already exists; do not recommend rebuilding it.
+## Last update
+2026-08-15
