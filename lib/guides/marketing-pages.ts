@@ -414,8 +414,8 @@ export const marketingGuides = {
         title: "Name, address, phone — keep these consistent",
         items: [
           {
-            title: "Planning office (Irvine)",
-            body: "320 Junco, Irvine, CA 92618 — relocation planning with Dr. Gene Boyle.",
+            title: "Planning office (Corona del Mar)",
+            body: "3301 E. Coast Hwy, Corona del Mar, CA 92625 — relocation planning with Dr. Gene Boyle.",
           },
           {
             title: "Las Vegas partner office",
@@ -451,7 +451,7 @@ export const marketingGuides = {
       {
         question: "Which address should I put in my GPS for meetings?",
         answer:
-          "Confirm when you book. Irvine planning: 320 Junco, Irvine, CA 92618. Las Vegas partner office: 9406 W Lake Mead Blvd, Suite 100, Las Vegas, NV 89134.",
+          "Confirm when you book. California planning office: 3301 E. Coast Hwy, Corona del Mar, CA 92625. Las Vegas partner office: 9406 W Lake Mead Blvd, Suite 100, Las Vegas, NV 89134.",
       },
       {
         question: "Is this the Google Business listing for reviews?",

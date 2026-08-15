@@ -4,19 +4,20 @@
 export const siteConfig = {
   name: "Gene Boyle",
   fullName: "Dr. Gene Boyle",
-  tagline: "Irvine to Las Vegas Relocation",
+  tagline: "Orange County to Las Vegas Relocation",
   brandLine:
-    "Dr. Gene Boyle | Irvine to Las Vegas Relocation | BHHS Nevada Properties partner",
+    "Dr. Gene Boyle | Orange County to Las Vegas Relocation | BHHS Nevada Properties partner",
   brandName: "Berkshire Hathaway HomeServices Nevada Properties",
   shortName: "Gene Boyle",
   url: "https://www.eugeneboyle.com",
+  // Real-estate relocation site — distinct from the research/KLB site at drgeneboyle.com
   description:
-    "Dr. Gene Boyle (California DRE #02282581) helps clients move from Irvine, California to Las Vegas. Relocation planning with local Las Vegas support from Dr. Jan Duffy, BHHS Nevada Properties.",
+    "Dr. Gene Boyle (California DRE #02282581) helps clients relocate from Orange County and Irvine, California to Las Vegas. Office: 3301 E. Coast Hwy, Corona del Mar, CA 92625. Las Vegas tours and closing with Dr. Jan Duffy, BHHS Nevada Properties.",
 };
 
 export const agentInfo = {
   name: "Dr. Gene Boyle",
-  title: "California DRE Salesperson — Irvine relocation planning",
+  title: "California DRE Salesperson — Orange County relocation planning",
   license: "02282581",
   licenseLabel: "California DRE #02282581",
   phone: "(702) 222-1964",
@@ -32,17 +33,17 @@ export const agentInfo = {
 };
 
 export const officeInfo = {
-  name: "Dr. Gene Boyle — Irvine Relocation Planning",
+  name: "Dr. Gene Boyle — California Relocation Planning",
   address: {
-    street: "320 Junco",
-    city: "Irvine",
+    street: "3301 E. Coast Hwy",
+    city: "Corona del Mar",
     state: "CA",
-    zip: "92618",
-    full: "320 Junco, Irvine, CA 92618",
+    zip: "92625",
+    full: "3301 E. Coast Hwy, Corona del Mar, CA 92625",
   },
   coordinates: {
-    lat: 33.6846,
-    lng: -117.8265,
+    lat: 33.5996137,
+    lng: -117.8721203,
   },
   lasVegasOffice: {
     name: "Berkshire Hathaway HomeServices Nevada Properties",

@@ -22,23 +22,23 @@ const REALSCOUT_AGENT_ID = "QWdlbnQtMjI1MDUw";
 
 const GENE_BOYLE_RELOCATION: DomainConfig = {
   domain: "eugeneboyle.com",
-  neighborhood: "Irvine to Las Vegas",
-  tagline: "Irvine to Las Vegas Relocation — Dr. Gene Boyle",
+  neighborhood: "Orange County to Las Vegas",
+  tagline: "Orange County to Las Vegas Relocation — Dr. Gene Boyle",
   description:
-    "Dr. Gene Boyle (California DRE #02282581) helps clients move from Irvine, California to Las Vegas. Relocation planning from 320 Junco, Irvine, CA, with local Las Vegas support from Dr. Jan Duffy, BHHS Nevada Properties.",
-  heroHeadline: "Moving from Irvine to Las Vegas?",
+    "Dr. Gene Boyle (California DRE #02282581) helps clients move from Orange County and Irvine, California to Las Vegas. Planning office: 3301 E. Coast Hwy, Corona del Mar, CA 92625. Las Vegas support from Dr. Jan Duffy, BHHS Nevada Properties. Separate from the research site at drgeneboyle.com.",
+  heroHeadline: "Moving from Orange County to Las Vegas?",
   heroSubheadline:
-    "Dr. Gene Boyle plans your California-to-Nevada move and coordinates Las Vegas homes with Dr. Jan Duffy.",
+    "Dr. Gene Boyle plans your California-to-Nevada move from Corona del Mar and coordinates Las Vegas homes with Dr. Jan Duffy.",
   keywords: [
+    "Orange County to Las Vegas relocation",
     "Irvine to Las Vegas relocation",
-    "Dr Gene Boyle",
-    "Eugene Boyle realtor",
+    "Dr Gene Boyle realtor",
+    "Corona del Mar real estate",
     "California to Las Vegas move",
-    "Las Vegas homes from Irvine",
   ],
   pageType: "lifestyle",
   realscoutAgentId: REALSCOUT_AGENT_ID,
-  ctaBadge: "Irvine → Las Vegas",
+  ctaBadge: "OC → Las Vegas",
   ctaHeadline: "Start Your Las Vegas Move",
   ctaSubheadline: "Call or text 702-222-1964 — Gene plans the move, Jan covers Las Vegas ground.",
 };
@@ -48,12 +48,14 @@ export const DOMAIN_CONFIGS: Record<string, DomainConfig> = {
   "geneboyle.com": {
     ...GENE_BOYLE_RELOCATION,
     domain: "geneboyle.com",
+    description:
+      "Dr. Gene Boyle (California DRE #02282581) helps clients move from Orange County and Irvine, California to Las Vegas. Planning office: 3301 E. Coast Hwy, Corona del Mar, CA 92625. Las Vegas support from Dr. Jan Duffy, BHHS Nevada Properties.",
     keywords: [
+      "Orange County to Las Vegas relocation",
       "Irvine to Las Vegas relocation",
       "Dr Gene Boyle",
       "California to Las Vegas move",
       "Gene Boyle realtor",
-      "Las Vegas homes from Irvine",
     ],
   },
   "consenzaestates.com": { domain: "consenzaestates.com", neighborhood: "Consenza Estates", tagline: "Luxury Living in Consenza Estates", description: "Find your dream home in Consenza Estates, Las Vegas. Expert guidance from Dr. Jan Duffy.", heroHeadline: "Consenza Estates Homes for Sale", heroSubheadline: "Exclusive properties in one of Las Vegas' most sought-after communities.", keywords: ["Consenza Estates homes", "Las Vegas luxury real estate", "Consenza Estates Las Vegas"], pageType: "luxury", realscoutAgentId: REALSCOUT_AGENT_ID, ctaBadge: "Consenza Estates Expert", ctaHeadline: "Find Your Consenza Estates Home", ctaSubheadline: "I know every listing in this community. Let me match you with the right home." },
@@ -124,10 +126,10 @@ export const DOMAIN_CONFIGS: Record<string, DomainConfig> = {
 export const DEFAULT_CONFIG: DomainConfig = {
   ...GENE_BOYLE_RELOCATION,
   keywords: [
+    "Orange County to Las Vegas relocation",
     "Irvine to Las Vegas relocation",
-    "Dr Gene Boyle",
-    "Eugene Boyle",
-    "California to Las Vegas move",
+    "Dr Gene Boyle realtor",
+    "Eugene Boyle Corona del Mar",
     "eugeneboyle.com",
   ],
 };
