@@ -64,7 +64,7 @@ jobs:
 
       - name: Comment PR with Preview URL
         if: steps.token.outputs.skip != 'true' && steps.deploy.outputs.url != ''
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         with:
           script: |
             const { data: comments } = await github.rest.issues.listComments({
@@ -129,7 +129,7 @@ jobs:
           temporaryPublicStorage: true
 
       - name: Comment PR with Lighthouse Results
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         if: always()
         with:
           script: |
