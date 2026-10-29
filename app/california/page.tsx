@@ -22,7 +22,7 @@ export const metadata: Metadata = buildPageMetadata({
   title:
     "California & Orange County Homes | Corona del Mar Realtor | Dr. Gene Boyle",
   description:
-    "Hyperlocal Corona del Mar realtor services plus Orange County coverage — Newport Beach, Irvine, Laguna Beach, Laguna Niguel, Mission Viejo, Monarch Beach, Tustin. Office: 3301 E. Coast Hwy, Corona del Mar, CA 92625. Call (702) 222-1964.",
+    "Hyperlocal Corona del Mar realtor services plus Orange County coverage — Newport Beach, Irvine, Laguna Beach, Laguna Niguel, Mission Viejo, Monarch Beach, Tustin. Office: 3301 E. Coast Hwy, Corona del Mar, CA 92625. Call (702) 500-1955.",
   path: "/california",
   keywords: [
     "Corona del Mar realtor",

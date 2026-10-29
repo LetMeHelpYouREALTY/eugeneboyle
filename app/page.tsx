@@ -19,7 +19,7 @@ export const metadata: Metadata = buildPageMetadata({
   title:
     "Corona del Mar Realtor | Orange County Homes | Dr. Gene Boyle",
   description:
-    "Hyperlocal Corona del Mar and Orange County real estate with Dr. Gene Boyle (CA DRE #02282581). Office: 3301 E. Coast Hwy, Corona del Mar, CA 92625. Call (702) 222-1964.",
+    "Hyperlocal Corona del Mar and Orange County real estate with Dr. Gene Boyle (CA DRE #02282581). Office: 3301 E. Coast Hwy, Corona del Mar, CA 92625. Call (702) 500-1955.",
   path: "/",
   keywords: [
     "Corona del Mar realtor",
