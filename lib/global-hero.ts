@@ -16,6 +16,6 @@ export const GLOBAL_HERO: GlobalHeroConfig = {
   src: "/images/global-hero/heyberkshire.jpg",
   alt: "Corona del Mar and Orange County coastal real estate with Dr. Gene Boyle",
   tagline: "eugeneboyle.com — Corona del Mar & Orange County by Dr. Gene Boyle",
-  phoneDisplay: "(702) 222-1964",
-  phoneTel: "tel:+17022221964",
+  phoneDisplay: "(702) 500-1955",
+  phoneTel: "tel:+17025001955",
 };

@@ -137,7 +137,7 @@ export const californiaGuides: Record<string, AreaGuide> = {
       title:
         "Corona del Mar Homes for Sale | Realtor Dr. Gene Boyle | 92625",
       description:
-        "Corona del Mar real estate — village, cliffs, and coastal comps with Dr. Gene Boyle (CA DRE #02282581). Office: 3301 E. Coast Hwy, Corona del Mar, CA 92625. Call (702) 222-1964.",
+        "Corona del Mar real estate — village, cliffs, and coastal comps with Dr. Gene Boyle (CA DRE #02282581). Office: 3301 E. Coast Hwy, Corona del Mar, CA 92625. Call (702) 500-1955.",
       keywords: [
         "Corona del Mar homes for sale",
         "Corona del Mar realtor",
@@ -260,7 +260,7 @@ export const californiaGuides: Record<string, AreaGuide> = {
     meta: {
       title: "Newport Beach Homes | Corona del Mar Realtor | Dr. Gene Boyle",
       description:
-        "Newport Beach real estate with Dr. Gene Boyle — harbor, Fashion Island, Newport Coast, and Corona del Mar. Office in CdM. Call (702) 222-1964.",
+        "Newport Beach real estate with Dr. Gene Boyle — harbor, Fashion Island, Newport Coast, and Corona del Mar. Office in CdM. Call (702) 500-1955.",
       keywords: [
         "Newport Beach homes for sale",
         "Newport Beach realtor",
@@ -374,7 +374,7 @@ export const californiaGuides: Record<string, AreaGuide> = {
     meta: {
       title: "Irvine Homes for Sale | Orange County Realtor | Dr. Gene Boyle",
       description:
-        "Irvine real estate with Dr. Gene Boyle — villages, HOA filters, and Q2 2026 labeled medians. Corona del Mar office. Call (702) 222-1964.",
+        "Irvine real estate with Dr. Gene Boyle — villages, HOA filters, and Q2 2026 labeled medians. Corona del Mar office. Call (702) 500-1955.",
       keywords: [
         "Irvine homes for sale",
         "Irvine realtor",
@@ -460,7 +460,7 @@ export const californiaGuides: Record<string, AreaGuide> = {
     meta: {
       title: "Laguna Beach Homes | Orange County Coast | Dr. Gene Boyle",
       description:
-        "Laguna Beach real estate — coves, hillsides, and coastal comps with Dr. Gene Boyle. Corona del Mar office. Call (702) 222-1964.",
+        "Laguna Beach real estate — coves, hillsides, and coastal comps with Dr. Gene Boyle. Corona del Mar office. Call (702) 500-1955.",
       keywords: [
         "Laguna Beach homes for sale",
         "Laguna Beach realtor",
@@ -541,7 +541,7 @@ export const californiaGuides: Record<string, AreaGuide> = {
     meta: {
       title: "Laguna Niguel Homes | South OC Realtor | Dr. Gene Boyle",
       description:
-        "Laguna Niguel real estate with Dr. Gene Boyle — hillside tracts, HOA filters, and coastal access. Call (702) 222-1964.",
+        "Laguna Niguel real estate with Dr. Gene Boyle — hillside tracts, HOA filters, and coastal access. Call (702) 500-1955.",
       keywords: [
         "Laguna Niguel homes for sale",
         "Laguna Niguel realtor",
@@ -623,7 +623,7 @@ export const californiaGuides: Record<string, AreaGuide> = {
     meta: {
       title: "Mission Viejo Homes | Orange County | Dr. Gene Boyle",
       description:
-        "Mission Viejo real estate — lake community filters and planned-community inventory with Dr. Gene Boyle. Call (702) 222-1964.",
+        "Mission Viejo real estate — lake community filters and planned-community inventory with Dr. Gene Boyle. Call (702) 500-1955.",
       keywords: [
         "Mission Viejo homes for sale",
         "Mission Viejo realtor",
@@ -700,7 +700,7 @@ export const californiaGuides: Record<string, AreaGuide> = {
     meta: {
       title: "Monarch Beach Homes | Dana Point Coast | Dr. Gene Boyle",
       description:
-        "Monarch Beach real estate — resort-adjacent and ocean-view product with Dr. Gene Boyle. Call (702) 222-1964.",
+        "Monarch Beach real estate — resort-adjacent and ocean-view product with Dr. Gene Boyle. Call (702) 500-1955.",
       keywords: [
         "Monarch Beach homes for sale",
         "Monarch Beach realtor",
@@ -777,7 +777,7 @@ export const californiaGuides: Record<string, AreaGuide> = {
     meta: {
       title: "Tustin Homes for Sale | Orange County | Dr. Gene Boyle",
       description:
-        "Tustin real estate — Legacy and planned communities with Dr. Gene Boyle. Corona del Mar office. Call (702) 222-1964.",
+        "Tustin real estate — Legacy and planned communities with Dr. Gene Boyle. Corona del Mar office. Call (702) 500-1955.",
       keywords: [
         "Tustin homes for sale",
         "Tustin realtor",
@@ -874,7 +874,7 @@ export const californiaGuides: Record<string, AreaGuide> = {
       title:
         "Orange County Realtor | Corona del Mar Hub | Dr. Gene Boyle",
       description:
-        "Orange County real estate with Dr. Gene Boyle — Corona del Mar office, Newport Beach, Irvine, and south OC cities. Call (702) 222-1964.",
+        "Orange County real estate with Dr. Gene Boyle — Corona del Mar office, Newport Beach, Irvine, and south OC cities. Call (702) 500-1955.",
       keywords: [
         "Orange County realtor",
         "Corona del Mar real estate",

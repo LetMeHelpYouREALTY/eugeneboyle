@@ -98,7 +98,7 @@ export function generateRealEstateAgentSchema() {
     logo: `${BASE_URL}/images/agent/portrait.jpg`,
     image: `${BASE_URL}/images/agent/portrait.jpg`,
     description: siteConfig.description,
-    telephone: "+1-702-222-1964",
+    telephone: "+1-702-500-1955",
     email: agentInfo.email,
     priceRange: "Confirm on MLS",
     address: {
@@ -119,7 +119,7 @@ export function generateRealEstateAgentSchema() {
         "@type": "Person",
         name: agentInfo.name,
         jobTitle: agentInfo.title,
-        telephone: "+1-702-222-1964",
+        telephone: "+1-702-500-1955",
         email: agentInfo.email,
         hasCredential: {
           "@type": "EducationalOccupationalCredential",
@@ -135,7 +135,7 @@ export function generateRealEstateAgentSchema() {
         "@type": "Person",
         name: agentInfo.partnerAgent.name,
         jobTitle: "Las Vegas partner — BHHS Nevada Properties",
-        telephone: "+1-702-222-1964",
+        telephone: "+1-702-500-1955",
         hasCredential: {
           "@type": "EducationalOccupationalCredential",
           credentialCategory: "Real Estate License",

@@ -21,7 +21,7 @@ import { cdmMarketNotes } from "@/lib/market/corona-del-mar";
 export const metadata: Metadata = buildPageMetadata({
   title: "Corona del Mar & Orange County FAQ | Dr. Gene Boyle",
   description:
-    "FAQ for Corona del Mar and Orange County real estate, plus Las Vegas relocation when needed. Dr. Gene Boyle (CA DRE #02282581). Call (702) 222-1964.",
+    "FAQ for Corona del Mar and Orange County real estate, plus Las Vegas relocation when needed. Dr. Gene Boyle (CA DRE #02282581). Call (702) 500-1955.",
   path: "/faq",
   keywords: [
     "Corona del Mar realtor FAQ",
